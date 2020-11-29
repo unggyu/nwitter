@@ -10,7 +10,6 @@ function App() {
     authService.onAuthStateChanged((user) => {
       if (user) {
         setUserObj(user);
-      } else {
       }
       setInit(true);
     });
